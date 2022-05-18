@@ -8,8 +8,8 @@ import {
 	selectStatus,
 	selectTodos,
 } from './features/todos'
-import { AppLayout } from '../components/layout/AppLayout'
-import { Button } from '../components/Button'
+import { AppLayout } from './components/layout/AppLayout'
+import { Button } from './components/Button'
 
 const TodoItem = ({ todo }) => {
 	const dispatch = useDispatch()
